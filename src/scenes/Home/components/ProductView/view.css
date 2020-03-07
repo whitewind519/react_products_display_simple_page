@@ -1,0 +1,7 @@
+.view-wrapper {
+  padding: 28px 5% 20px 5%;
+  min-height: 100vh; }
+
+@media only screen and (max-width: 768px) {
+  .view-wrapper {
+    padding: 5px 5% 5px 5%; } }

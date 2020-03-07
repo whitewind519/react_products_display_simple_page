@@ -1,0 +1,118 @@
+.headerBar {
+  padding: 0px 5%;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+  width: 100%;
+  background-color: white; }
+  .headerBar .header {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center; }
+    .headerBar .header .header-wrapper {
+      display: flex; }
+      .headerBar .header .header-wrapper .logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: black; }
+        .headerBar .header .header-wrapper .logo a {
+          color: black; }
+        .headerBar .header .header-wrapper .logo a:hover {
+          text-decoration: none; }
+      .headerBar .header .header-wrapper .menu {
+        padding: 8px;
+        display: flex; }
+        .headerBar .header .header-wrapper .menu .item {
+          font-size: 15px;
+          margin: 0px 20px; }
+        .headerBar .header .header-wrapper .menu .item:first-child {
+          margin-left: 200px; }
+      .headerBar .header .header-wrapper .right-helper {
+        display: flex;
+        padding: 8px; }
+        .headerBar .header .header-wrapper .right-helper .item {
+          position: relative;
+          font-size: 15px;
+          margin: 0px 20px; }
+          .headerBar .header .header-wrapper .right-helper .item .cart {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #57dbec;
+            top: 10px;
+            left: 10px; }
+            .headerBar .header .header-wrapper .right-helper .item .cart div {
+              color: white;
+              font-size: 12px;
+              font-weight: bold;
+              text-align: center; }
+          .headerBar .header .header-wrapper .right-helper .item .cart.hide {
+            display: none; }
+          .headerBar .header .header-wrapper .right-helper .item .cart.open {
+            display: block; }
+        .headerBar .header .header-wrapper .right-helper .item:first-child {
+          margin-left: 200px; }
+      .headerBar .header .header-wrapper .mobile-menu {
+        display: none; }
+        .headerBar .header .header-wrapper .mobile-menu .menu-wrapper {
+          display: none; }
+  .headerBar hr {
+    margin: 0; }
+
+@media only screen and (max-width: 768px) {
+  .headerBar {
+    padding: 0px 5%;
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+    background-color: white; }
+    .headerBar .header {
+      padding: 10px 0px;
+      display: flex;
+      align-items: center; }
+      .headerBar .header .header-wrapper {
+        display: flex; }
+        .headerBar .header .header-wrapper .logo {
+          font-size: 30px;
+          font-weight: bold;
+          color: black; }
+          .headerBar .header .header-wrapper .logo a {
+            color: black; }
+          .headerBar .header .header-wrapper .logo a:hover {
+            text-decoration: none; }
+        .headerBar .header .header-wrapper .menu {
+          display: none; }
+        .headerBar .header .header-wrapper .right-helper {
+          display: none; }
+        .headerBar .header .header-wrapper .mobile-menu {
+          display: block;
+          transition: all ease 0.4s; }
+          .headerBar .header .header-wrapper .mobile-menu .menu-icon {
+            transition: all ease 0.4s;
+            position: absolute;
+            right: 5%;
+            font-size: 30px; }
+          .headerBar .header .header-wrapper .mobile-menu .menu-wrapper {
+            transition: all ease 0.4s;
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 10vh;
+            width: 90%;
+            margin: 0 5%;
+            height: 90vh;
+            padding-top: 20px;
+            background-color: #f0f2f3;
+            border-radius: 10px; }
+            .headerBar .header .header-wrapper .mobile-menu .menu-wrapper .item {
+              text-align: center;
+              font-size: 24px;
+              font-weight: bold; }
+          .headerBar .header .header-wrapper .mobile-menu .menu-wrapper.open {
+            left: 0px; }
+          .headerBar .header .header-wrapper .mobile-menu .menu-wrapper.hide {
+            left: -100vh; }
+    .headerBar hr {
+      margin: 0; } }

@@ -1,0 +1,70 @@
+.footerBar {
+  padding: 0px 5%;
+  width: 100%;
+  background-color: white;
+  margin-top: 20px; }
+  .footerBar .footer {
+    padding: 10px 0px; }
+    .footerBar .footer .footer-wrapper {
+      padding: 8px 0px;
+      display: flex; }
+      .footerBar .footer .footer-wrapper .social {
+        display: flex; }
+        .footerBar .footer .footer-wrapper .social .item {
+          font-size: 15px;
+          margin-right: 20px; }
+      .footerBar .footer .footer-wrapper .space {
+        flex: 1; }
+      .footerBar .footer .footer-wrapper .menu {
+        display: flex; }
+        .footerBar .footer .footer-wrapper .menu .item {
+          font-size: 15px;
+          margin-right: 20px; }
+      .footerBar .footer .footer-wrapper .helper {
+        display: flex; }
+      .footerBar .footer .footer-wrapper .cart {
+        display: none; }
+  .footerBar hr {
+    margin: 0; }
+
+@media only screen and (max-width: 768px) {
+  .footerBar {
+    padding: 0px 5%;
+    width: 100%;
+    background-color: white; }
+    .footerBar .footer {
+      padding: 10px 0px; }
+      .footerBar .footer .footer-wrapper {
+        padding: 8px 0px;
+        display: block; }
+        .footerBar .footer .footer-wrapper .social {
+          display: block; }
+          .footerBar .footer .footer-wrapper .social .item {
+            font-size: 15px;
+            margin-top: 20px; }
+        .footerBar .footer .footer-wrapper .space {
+          flex: 1; }
+        .footerBar .footer .footer-wrapper .menu {
+          padding: 0;
+          display: block; }
+          .footerBar .footer .footer-wrapper .menu .item {
+            font-size: 15px;
+            margin-top: 20px; }
+        .footerBar .footer .footer-wrapper .helper {
+          display: block; }
+          .footerBar .footer .footer-wrapper .helper .item {
+            margin-top: 20px; }
+        .footerBar .footer .footer-wrapper .cart {
+          display: flex;
+          float: right;
+          width: 60px;
+          height: 60px;
+          padding: 20px;
+          border-radius: 50%;
+          box-shadow: 0px 2px 2px gray;
+          background-color: white;
+          margin: 30px; }
+          .footerBar .footer .footer-wrapper .cart img {
+            width: 30px; }
+    .footerBar hr {
+      margin: 0; } }

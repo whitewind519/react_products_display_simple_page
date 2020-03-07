@@ -1,0 +1,102 @@
+.filter-wrapper {
+  padding: 26px 5% 10px 5%; }
+  .filter-wrapper .filterHandle {
+    display: none; }
+  .filter-wrapper .filterArea {
+    transition: all ease 1s; }
+    .filter-wrapper .filterArea .filter-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .filter-wrapper .filterArea .filter-content .price {
+        width: 10%; }
+        .filter-wrapper .filterArea .filter-content .price .price-area {
+          display: flex; }
+          .filter-wrapper .filterArea .filter-content .price .price-area .start {
+            flex: 1; }
+
+.brands {
+  height: 80px;
+  overflow: scroll;
+  overflow-x: hidden; }
+
+.color-marble label:before {
+  background-color: #7a4d2e;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-charcoal label:before {
+  background-color: #534c47;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-pastel label:before {
+  background-color: #ffc1b3;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-red label:before {
+  background-color: red;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-nude label:before {
+  background-color: #d4cbb2;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-blue label:before {
+  background-color: blue;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-transparent label:before {
+  background-color: #cec9cd;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-tortoise label:before {
+  background-color: #98532f;
+  width: 0.7rem;
+  height: 0.7rem; }
+
+.color-marble label:after {
+  left: -1rem; }
+
+.color-charcoal label:after {
+  left: -1rem; }
+
+.color-pastel label:after {
+  left: -1rem; }
+
+.color-red label:after {
+  left: -1rem; }
+
+.color-nude label:after {
+  left: -1rem; }
+
+.color-blue label:after {
+  left: -1rem; }
+
+.color-transparent label:after {
+  left: -1rem; }
+
+.color-tortoise label:after {
+  left: -1rem; }
+
+@media only screen and (max-width: 768px) {
+  .filter-wrapper .filterHandle {
+    display: block;
+    text-align: right; }
+  .filter-wrapper .filterArea {
+    transition: all ease 1s; }
+    .filter-wrapper .filterArea .filter-content {
+      display: block;
+      align-items: center;
+      justify-content: center; }
+      .filter-wrapper .filterArea .filter-content .price {
+        width: 100%; }
+  .filter-wrapper .filterArea.open {
+    display: block; }
+  .filter-wrapper .filterArea.hide {
+    display: none; } }

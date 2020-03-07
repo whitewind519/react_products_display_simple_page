@@ -1,0 +1,106 @@
+.footerBar{
+    padding:0px 5%;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    .footer{
+        padding: 10px 0px;
+        .footer-wrapper{
+            padding:8px 0px;
+            display: flex;
+            .social{
+                // padding:8px;
+                display: flex;
+                .item{
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+            }
+            .space{
+                flex: 1;
+            }
+            .menu{
+                // padding:8px;
+                display: flex;
+                .item{
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+            }
+            .helper{
+                // padding:8px;
+                display: flex;
+                .item{
+
+                }
+            }
+            .cart {
+                display: none;
+            }
+        }
+    }
+    hr{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px) {  
+    .footerBar{
+        padding:0px 5%;
+        width: 100%;
+        background-color: white;
+        .footer{
+            padding: 10px 0px;
+            .footer-wrapper{
+                padding:8px 0px;
+                display: block;
+                .social{
+                    // padding:8px;
+                    display: block;
+                    .item{
+                        font-size: 15px;
+                        margin-top: 20px;
+                    }
+                }
+                .space{
+                    flex: 1;
+                }
+                .menu{
+                    // padding:8px;
+                    padding:0;
+                    display: block;
+                    .item{
+                        font-size: 15px;
+                        margin-top:20px;
+                    }
+                }
+                .helper{
+                    // padding:8px;
+                    display: block;
+                    .item{
+                        margin-top:20px;
+    
+                    }
+                }
+                .cart{
+                    display: flex;
+                    float: right;
+                    width: 60px;
+                    height: 60px;
+                    padding: 20px;
+                    border-radius: 50%;
+                    box-shadow: 0px 2px 2px gray;
+                    background-color: white;
+                    margin:30px;
+                    img{
+                        width: 30px;
+                      
+                    }
+                    
+                }
+            }
+        }
+        hr{
+            margin: 0;
+        }
+    }
+}

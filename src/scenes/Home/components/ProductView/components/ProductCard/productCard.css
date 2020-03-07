@@ -1,0 +1,104 @@
+.cardView {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s; }
+  .cardView .imageShow:hover .img {
+    cursor: pointer;
+    opacity: 0.3; }
+  .cardView .imageShow:hover .colorSpace {
+    display: block; }
+  .cardView .imageShow {
+    position: relative; }
+    .cardView .imageShow img {
+      margin-top: 2rem;
+      width: 100%;
+      transition: opacity 0.3s ease; }
+    .cardView .imageShow img:hover {
+      cursor: pointer;
+      opacity: 0.3; }
+      .cardView .imageShow img:hover > .colorSpace {
+        display: block; }
+    .cardView .imageShow .colorSpace {
+      display: none;
+      position: absolute;
+      width: 100%;
+      bottom: 50%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      transition: all ease 0.5s; }
+      .cardView .imageShow .colorSpace label {
+        margin-left: 10px;
+        color: white; }
+      .cardView .imageShow .colorSpace .color-marble {
+        position: relative;
+        padding-left: 0.5rem; }
+      .cardView .imageShow .colorSpace .color-charcoal {
+        position: relative;
+        padding-left: 0.5rem; }
+      .cardView .imageShow .colorSpace .color-pastel {
+        position: relative;
+        padding-left: 0.5rem; }
+      .cardView .imageShow .colorSpace .color-marble:before {
+        position: absolute;
+        top: 0.5rem;
+        left: -0.3rem;
+        border-radius: 50%;
+        background-color: #7a4d2e;
+        width: 0.7rem;
+        height: 0.7rem;
+        content: ""; }
+      .cardView .imageShow .colorSpace .color-charcoal:before {
+        position: absolute;
+        top: 0.5rem;
+        left: -0.3rem;
+        border-radius: 50%;
+        background-color: #534c47;
+        width: 0.7rem;
+        height: 0.7rem;
+        content: ""; }
+      .cardView .imageShow .colorSpace .color-pastel:before {
+        position: absolute;
+        top: 0.5rem;
+        left: -0.3rem;
+        border-radius: 50%;
+        background-color: #ffc1b3;
+        width: 0.7rem;
+        height: 0.7rem;
+        content: ""; }
+  .cardView .product-info {
+    display: block; }
+    .cardView .product-info .title {
+      font-size: 15px;
+      font-weight: bold;
+      display: block; }
+    .cardView .product-info .description {
+      display: flex;
+      font-size: 14px; }
+      .cardView .product-info .description .more {
+        flex: 1; }
+
+@media only screen and (max-width: 768px) {
+  .cardView img {
+    margin-top: 0; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
